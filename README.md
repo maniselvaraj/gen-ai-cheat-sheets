@@ -6,4 +6,5 @@ Generative AI/LLM cheat sheets - A collection of notes that I gathered while pla
 
 
 Topics
+* [Basics](basics.md)
 * [RAG](rag.md)
