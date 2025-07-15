@@ -25,6 +25,72 @@ Three Key Parameters​
    2. Temp = 0: Likely gets "horses" (most probable)​
    3. High temp + Top K/P limits: Gets "horses" or "zebras" (balanced creativity)
 
+
+## Prompting Tips
+
+---
+
+## Prompt Engineering Tips
+
+
+* **Start Simple, Iterate:** Begin with a broad request, then refine it.
+    * *Example:* "Summarize text" $\rightarrow$ "Summarize text in 3 bullet points."
+
+* **Use Clear Action Verbs:** Tell the model precisely what to do.
+    * *Example:* "Write a product description."
+
+* **Place Instructions First:** Put your main command at the beginning of the prompt.
+    * *Example:* "### Instruction ### Translate to Spanish: Text: Hello."
+
+* **Use Separators:** Clearly delineate different parts of your prompt.
+    * *Example:* "### Task ### Classify sentiment ### Text ### I love this."
+
+* **Be Specific & Detailed:** Provide ample context and explicit requirements.
+    * *Example:* "Write a formal email to a client apologizing for a 2-day shipping delay."
+
+* **Include Example Outputs:** Show the model the desired format and style.
+    * *Example:* "Extract names. Format: Name: John, Mary from text: John and Mary."
+
+* **Keep Details Relevant:** Avoid unnecessary or distracting information.
+    * *Example:* (Avoid) "Write a story about dogs, make it interesting and engaging."
+
+* **Be Direct, Not Clever:** Prioritize clarity and straightforwardness.
+    * *Example:* "Explain quantum physics to a 12-year-old in 2 sentences" (better than "Explain quantum physics simply").
+
+* **State What To Do:** Use positive instructions instead of negative ones.
+    * *Example:* "Recommend movies from trending list" vs. "Don't ask for personal preferences."
+
+* **Experiment Extensively:** Try different phrasing and approaches.
+    * *Example:* Try "List pros and cons" then "Create a comparison table."
+
+* **Break Down Complex Tasks:** Divide a big problem into smaller, manageable steps.
+    * *Example:* "Analyze market data" $\rightarrow$ "1. Identify trends 2. Calculate averages."
+
+* **Balance Detail with Length:** Include necessary context without being overly verbose.
+    * *Example:* Provide key context but avoid lengthy background information.
+
+* **Use Proper Formatting:** Apply structured inputs and outputs like newlines.
+    * *Example:* "Task: Classify\nInput: This movie was amazing\nOutput:"
+
+* **Structure Prompts Clearly:** Define the model's role, the task, and the audience.
+    * *Example:* "Role: Teacher\nTask: Explain photosynthesis\nAudience: 5th graders."
+
+* **Define Output Audience/Persona:** Tailor the output to a specific type of recipient.
+    * *Example:* "Write a product review for a tech-savvy gamer."
+
+* **Specify Output Format:** Explicitly request formats like JSON, tables, or lists.
+    * *Example:* "Extract entities into a JSON array."
+
+* **Manage Ambiguity:** Instruct the model on how to handle unclear information.
+    * *Example:* "If any part is unclear, state the ambiguity rather than making an assumption."
+
+* **Use Chain-of-Thought:** Guide the model to show its step-by-step reasoning.
+    * *Example:* "First, identify the premise. Second, analyze its validity. Finally, provide your assessment."
+
+* **Assign Model Persona:** Instruct the model to adopt a specific character or tone.
+    * *Example:* "You are a seasoned financial analyst. Explain the market trends."
+
+
 ## Prompt + Parameters
 
 | **Example use case**​ | **Temperature**​ | **top\_p**​ | **Description**​ |
@@ -69,3 +135,9 @@ Hallucinations are a byproduct of the probabilistic nature of language models wh
 
 * Fact-Checking: Validate AI outputs, especially for critical use cases.​
 * Continuous Monitoring: Regularly test and refine models based on real-world performance.
+
+
+**References**
+1. <https://www.promptingguide.ai/>
+2. <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api/>
+
