@@ -92,28 +92,28 @@ Three Key Parameters​
 For various prompting techniques like below, check https://www.promptingguide.ai/techniques
 
 
-| Prompting Technique | Definition and When to Use |
-|---|---|
-| **Zero-shot Prompting** | Directly ask the model to perform a task without examples. \<br\> Use when the task is simple and straightforward. |
-| **Few-shot Prompting** | Provide a few examples of the task within the prompt. \<br\> Use to guide the model's desired output format or style. |
-| **Chain-of-Thought Prompting** | Instruct the model to show its step-by-step reasoning. \<br\> Use for complex reasoning or multi-step problems. |
-| **Meta Prompting** | A prompt that generates or modifies other prompts. \<br\> Use for automated prompt optimization or dynamic prompting. |
-| **Self-Consistency** | Generate multiple outputs and take the majority vote or most consistent answer. \<br\> Use to improve reliability for reasoning tasks. |
-| **Generate Knowledge Prompting** | Ask the model to generate relevant knowledge before answering a question. \<br\> Use when external knowledge is beneficial for the task. |
-| **Prompt Chaining** | Link multiple prompts together, where one's output is another's input. \<br\> Use for complex workflows or sequential tasks. |
-| **Tree of Thoughts** | Explore multiple reasoning paths and evaluate intermediate steps. \<br\> Use for highly complex problems requiring deeper exploration. |
-| **Retrieval Augmented Generation** | Combine an LLM with an external knowledge retriever. \<br\> Use for factual accuracy and to access up-to-date information. |
-| **Automatic Reasoning and Tool-use** | Enable the model to autonomously use external tools (e.g., search, calculator). \<br\> Use when tasks require capabilities beyond the LLM's inherent knowledge. |
-| **Automatic Prompt Engineer** | Use an LLM or another algorithm to automatically generate and refine prompts. \<br\> Use for optimizing prompt performance. |
-| **Active-Prompt** | An interactive approach where the model queries for missing information or clarifies ambiguities. \<br\> Use for tasks requiring precise input or iterative refinement. |
-| **Directional Stimulus Prompting** | Provide specific keywords or phrases to steer the model's generation. \<br\> Use to guide the model towards a desired direction or topic. |
-| **Program-Aided Language Models** | Guide the LLM to generate code (e.g., Python) to solve problems. \<br\> Use for tasks requiring precise calculation, logical operations, or structured output. |
-| **ReAct** | Combine reasoning traces with actions (tool use) for problem-solving. \<br\> Use for complex tasks requiring both thought processes and external interaction. |
-| **Reflexion** | Enable the model to reflect on its previous outputs and iteratively refine them. \<br\> Use for improving the quality of generated content through self-correction. |
-| **Multimodal CoT** | Apply chain-of-thought reasoning to inputs involving multiple modalities (e.g., text and image). \<br\> Use for complex tasks that blend different types of input. |
-| **Graph Prompting** | Use graph structures to represent knowledge or relationships in prompts. \<br\> Use for tasks requiring understanding or generation based on complex relationships. |
+Here's the table with "When to Use" split into its own column:
 
-
+| Prompting Technique | Definition | When to Use |
+|---|---|---|
+| **Zero-shot Prompting** | Directly ask the model to perform a task without examples. | When the task is simple and straightforward. |
+| **Few-shot Prompting** | Provide a few examples of the task within the prompt. | To guide the model's desired output format or style. |
+| **Chain-of-Thought Prompting** | Instruct the model to show its step-by-step reasoning. | For complex reasoning or multi-step problems. |
+| **Meta Prompting** | A prompt that generates or modifies other prompts. | For automated prompt optimization or dynamic prompting. |
+| **Self-Consistency** | Generate multiple outputs and take the majority vote or most consistent answer. | To improve reliability for reasoning tasks. |
+| **Generate Knowledge Prompting** | Ask the model to generate relevant knowledge before answering a question. | When external knowledge is beneficial for the task. |
+| **Prompt Chaining** | Link multiple prompts together, where one's output is another's input. | For complex workflows or sequential tasks. |
+| **Tree of Thoughts** | Explore multiple reasoning paths and evaluate intermediate steps. | For highly complex problems requiring deeper exploration. |
+| **Retrieval Augmented Generation** | Combine an LLM with an external knowledge retriever. | For factual accuracy and to access up-to-date information. |
+| **Automatic Reasoning and Tool-use** | Enable the model to autonomously use external tools (e.g., search, calculator). | When tasks require capabilities beyond the LLM's inherent knowledge. |
+| **Automatic Prompt Engineer** | Use an LLM or another algorithm to automatically generate and refine prompts. | For optimizing prompt performance. |
+| **Active-Prompt** | An interactive approach where the model queries for missing information or clarifies ambiguities. | For tasks requiring precise input or iterative refinement. |
+| **Directional Stimulus Prompting** | Provide specific keywords or phrases to steer the model's generation. | To guide the model towards a desired direction or topic. |
+| **Program-Aided Language Models** | Guide the LLM to generate code (e.g., Python) to solve problems. | For tasks requiring precise calculation, logical operations, or structured output. |
+| **ReAct** | Combine reasoning traces with actions (tool use) for problem-solving. | For complex tasks requiring both thought processes and external interaction. |
+| **Reflexion** | Enable the model to reflect on its previous outputs and iteratively refine them. | For improving the quality of generated content through self-correction. |
+| **Multimodal CoT** | Apply chain-of-thought reasoning to inputs involving multiple modalities (e.g., text and image). | For complex tasks that blend different types of input. |
+| **Graph Prompting** | Use graph structures to represent knowledge or relationships in prompts. | For tasks requiring understanding or generation based on complex relationships. |
 
 ## Prompt + Parameters
 
