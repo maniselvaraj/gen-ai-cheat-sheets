@@ -57,7 +57,6 @@ Three Key Parameters​
 For various prompting techniques like below, check https://www.promptingguide.ai/techniques
 
 
-Here's the table with "When to Use" split into its own column:
 
 | Prompting Technique | Definition | When to Use |
 |---|---|---|
