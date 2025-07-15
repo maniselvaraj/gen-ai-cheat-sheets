@@ -99,7 +99,7 @@ Here's the table with "When to Use" split into its own column:
 | **Zero-shot Prompting** | Directly ask the model to perform a task without examples. | When the task is simple and straightforward. |
 | **Few-shot Prompting** | Provide a few examples of the task within the prompt. | To guide the model's desired output format or style. |
 | **Chain-of-Thought Prompting** | Instruct the model to show its step-by-step reasoning. | For complex reasoning or multi-step problems. |
-| **Meta Prompting** | A prompt that generates or modifies other prompts. | For automated prompt optimization or dynamic prompting. |
+| **Meta Prompting** | Focuses on the structural and syntactical aspects of tasks rather than specific content details, using abstract frameworks and patterns to guide LLM responses in a more structured, token-efficient manner. | Use meta prompting for complex reasoning tasks, mathematical problem-solving, coding challenges, and theoretical queries where you want to emphasize structure and pattern over specific content examples while maintaining token efficiency. |
 | **Self-Consistency** | Generate multiple outputs and take the majority vote or most consistent answer. | To improve reliability for reasoning tasks. |
 | **Generate Knowledge Prompting** | Ask the model to generate relevant knowledge before answering a question. | When external knowledge is beneficial for the task. |
 | **Prompt Chaining** | Link multiple prompts together, where one's output is another's input. | For complex workflows or sequential tasks. |
